@@ -35,7 +35,7 @@ install_from_source () {
   cd $dirname \
 
     # Install dependencies
-    && sh ./scripts/install_deps.sh \
+    sh ./scripts/install_deps.sh \
 
     # Build solc
     && mkdir build \
